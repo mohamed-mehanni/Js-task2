@@ -15,9 +15,11 @@ menuToggle.addEventListener("click", activeMobileMenu);
 
 //*****/loader
 
-window.addEventListener("load", function () {
+window.addEventListener("load", function() {
     document.getElementById("loader").style.display = "none";
+    document.getElementById("content").style.display = "block";
 });
+;
 
 //**** */ change bg
 
