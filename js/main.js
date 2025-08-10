@@ -16,11 +16,11 @@ menuToggle.addEventListener("click", activeMobileMenu);
 //*****/loader
 
 window.addEventListener("load", function() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("content").style.display = "block";
+    setTimeout(function() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("content").style.display = "block";
+    }, 1000); 
 });
-;
-
 //**** */ change bg
 
 let hero = document.querySelector(".hero")
